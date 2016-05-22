@@ -13,4 +13,5 @@ Use
 ---
 
 Provide a date or unix timestamp argument to the API.  
-e.g. 
+e.g. `https://timestamp-service-fcc2089.herokuapp.com/jan%201%2016`  
+will yield `{unix: 1451606400,natural: "January 1, 2016"}`
