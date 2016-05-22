@@ -56,3 +56,10 @@ li {
 .footer .copyright {
 	right: 10px;
 }
+
+@media screen and (max-width: 480px) {
+	.footer .copyright, .footer .developer {
+		position: static;
+		display: block;
+	}
+}
