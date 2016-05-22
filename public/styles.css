@@ -58,6 +58,12 @@ li {
 }
 
 @media screen and (max-width: 480px) {
+	.footer {
+		text-align: center;
+	}
+	.footer .developer {
+		margin-top: 10px;
+	}
 	.footer .copyright, .footer .developer {
 		position: static;
 		display: block;
